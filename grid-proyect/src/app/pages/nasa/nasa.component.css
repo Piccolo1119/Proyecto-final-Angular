@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh; /* Esto centra verticalmente el contenido */
-    color: white;
+    color: black;
   }
   
   .apod-container {
