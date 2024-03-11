@@ -47,17 +47,17 @@ export class ChuckComponent {
   }
 
   getJokeBySelectedCategory(category: string): void {
-      if (category) {
-        this.chuckService.getJokeByCategory(category).subscribe(
-          (response: any) => {
-            this.jokeByCategory = response.value;
-          },
-          (error: any) => {
-            console.error('Error fetching joke by category:', error);
-          }
-        );
-      } else {
-        console.error('Please select a category first.');
-      }
+    if (category) {
+     this.chuckService.getJokeByCategory(category).subscribe(
+      (response: any) => {
+        this.jokeByCategory = response.value;
+          },
+        (error: any) => {
+        console.error('Error fetching joke by category:', error);
+          }
+        );
+      } else {
+      console.error('Please select a category first.');
+    }
     }
 }

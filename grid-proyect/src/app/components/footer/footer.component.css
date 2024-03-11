@@ -4,7 +4,7 @@
   }
   
   .nga-footer {
-    background-color: #212121;
+    background-color: #1f1818;
     color: white;
   }
   .nga-footer {
@@ -13,13 +13,13 @@
   }
   
   .nga-footer a {
-    color: white;
-    text-decoration: none
+    color: #ffc107;
+    text-decoration: none;
   }
   
   .nga-footer a:hover,
   .nga-footer a:focus {
-    color: white;
+    color: red;
     text-decoration: underline;
   }
   
@@ -86,3 +86,50 @@
     background-color: #55acee;
   }
   
+  /* Añade esta regla de estilo a tu CSS */
+
+  .nga-btn-social {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #000; /* Cambia el color como desees */
+    transition: color 0.3s ease; /* Transición para el cambio de color */
+}
+
+.nga-btn-social:hover {
+    color: #007bff; /* Cambia el color al pasar el ratón por encima */
+}
+
+/* Animación para los íconos al hacer hover */
+.nga-btn-social:hover i {
+    animation: bounce 0.6s ease;
+}
+
+/* Definición de la animación */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+
+/* .juegos {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.22),
+  1px 0px 0px 0px rgba(0, 0, 0, 0.22), 1px 2px 0px 0px rgba(0, 0, 0, 0.22),
+  2px 1px 0px 0px rgba(0, 0, 0, 0.22), 2px 3px 0px 0px rgba(0, 0, 0, 0.22),
+  3px 2px 0px 0px rgba(0, 0, 0, 0.22), 3px 4px 0px 0px rgba(0, 0, 0, 0.22),
+  4px 3px 0px 0px rgba(0, 0, 0, 0.22), 4px 5px 0px 0px rgba(0, 0, 0, 0.22),
+  5px 4px 0px 0px rgba(0, 0, 0, 0.22), 5px 6px 0px 0px rgba(0, 0, 0, 0.22),
+  6px 5px 0px 0px rgba(0, 0, 0, 0.22), 6px 7px 0px 0px rgba(0, 0, 0, 0.22),
+  7px 6px 0px 0px rgba(0, 0, 0, 0.22), 7px 8px 0px 0px rgba(0, 0, 0, 0.22),
+  8px 7px 0px 0px rgba(0, 0, 0, 0.22);
+  gap: 10px;
+
+} */

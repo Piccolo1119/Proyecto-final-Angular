@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+}
+
+
+form {
+    margin-bottom: 20px; /* Espacio entre el formulario y la lista de teatros */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0px;
+  }
+  
+  ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el relleno por defecto de la lista */
+    border: 2px solid red;
+    padding: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+  }
+  
+  button {
+    margin-left: 10px; /* Espacio entre el texto y el botón */
+    background-color: #ff6347; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    padding: 5px 10px; /* Ajusta el relleno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  button:hover {
+    background-color: #ff7f50; /* Cambia el color de fondo al pasar sobre el botón */
+  }

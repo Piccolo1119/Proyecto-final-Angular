@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Teatros</h2>
+    <br>
+    <!-- Formulario para agregar un nuevo teatro -->
+    <form (ngSubmit)="addTeatro()">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" [(ngModel)]="nombre" name="nombre" required><br>
+      <label for="direccion"> Dirección:</label>
+      <input type="text" id="direccion" [(ngModel)]="direccion" name="direccion" required><br>
+      <button type="submit">Agregar Teatro</button>
+    </form>
+  
+    <!-- Lista de teatros -->
+    <ul>
+      <li *ngFor="let teatro of teatros">
+        <span>{{ teatro.nombre }}</span>
+        <span>{{ teatro.direccion }}</span>
+        <button (click)="deleteTeatro(teatro.id)">Eliminar</button>
+      </li>
+    </ul>
+  </div>
+  

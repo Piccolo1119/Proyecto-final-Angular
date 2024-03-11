@@ -8,7 +8,7 @@ import { JuegoComponent } from './components/juego/juego.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 import { PantallaComponent } from './components/pantalla/pantalla.component';
 import { NavegadorComponent } from './components/navegador/navegador.component';
-
+import { TeatroComponent } from './pages/teatro/teatro.component';
 
 
 
@@ -24,6 +24,8 @@ export const routes: Routes = [
 {path:'calculadora',component:CalculadoraComponent},
 {path:'pantalla', component:PantallaComponent},
 {path:'navegador',component:NavegadorComponent},
+{path:'teatro',component:TeatroComponent},
+
 
 
 

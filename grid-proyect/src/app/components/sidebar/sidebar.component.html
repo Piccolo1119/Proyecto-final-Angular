@@ -8,20 +8,20 @@
         <div class="collapse" id="home-collapse">
           <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li>
-              <a routerLink="/clima" class="link rounded"><i
+              <a routerLink="/clima" class="link rounded" id="clima"><i
                 class="fab fa-canadian-maple-leaf text-primary mt-1 me-2"></i>Clima App</a>
             </li>
             <li>
-              <a routerLink="/poke" class="link rounded">
+              <a routerLink="/poke" class="link rounded" id="poke">
                 <i class="fas fa-dove text-primary mt-1 me-2"></i>Poke App</a>
             </li>
             <li>
-              <a routerLink="/chuck" class="link rounded"><i
+              <a routerLink="/chuck" class="link rounded" id="chuck"><i
                   class="fas fa-user-friends text-primary mt-1 me-2"></i>Chuck Norris App</a>
             </li>
             <li>
             <li>
-              <a routerLink="/nasa" class="link rounded"><i
+              <a routerLink="/nasa" class="link rounded" id="nasa"><i
                   class="fas fa-space-shuttle text-primary mt-1 me-2"></i>Nasa App</a>
             </li>
           </ul>
@@ -35,29 +35,45 @@
         <div class="collapse" id="orders-collapse">
           <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li>
-              <a routerLink="/juego" class="link rounded">
+              <a routerLink="/juego" class="link rounded" id="adivinanza">
                 <i class="fas fa-gamepad text-primary mt-1 me-2"></i>Adivinanza</a>
             </li>
             <li>
-              <a routerLink="/calculadora" class="link rounded">
+              <a routerLink="/calculadora" class="link rounded" id="calculadora">
                 <i class="fas fa-calculator text-primary mt-1 me-2"></i>Calculadora</a>
             </li>
           </ul>
         </div>
       </li>
-      <div class="container">
+      <li class="mb-1">
+        <button class="btn nga-btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+          data-bs-target="#account-collapse" aria-expanded="false">
+          Servidor
+        </button>
+        <div class="collapse" id="account-collapse">
+          <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li>
+              <a routerLink="/teatro" class="link rounded" id="teatro">
+                <i class="fas fa-theater-masks text-primary mt-1 me-2"></i>Teatro Server</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <!-- <div class="container">
         <div class="row juegos mt-3">
-          <div class="card bg-transparent p-3 align-items-center">
-            <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-3 text-white text-center">¡Ayúdanos a seguir creando contenido!</h5>
-              <form action="https://www.paypal.com/donate" method="post" target="_blank">
-                <input type="hidden" name="business" value="tu_correo_paypal@example.com">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" width="80" height="20">
-              </form>
+          <div class="col-12 col-lg-12 mb-3">
+            <div class="card bg-transparent p-3 align-items-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-6 mb-3 text-white text-center">¡Ayúdanos a seguir creando contenido!</h5>
+                <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                  <input type="hidden" name="business" value="tu_correo_paypal@example.com">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" width="80" height="20">
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>      
+      </div>  -->     
     </ul>
   </div>
 
