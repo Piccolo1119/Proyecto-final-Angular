@@ -1,0 +1,27 @@
+<!-- pantalla.component.html -->
+
+<div class="pantalla-info">
+    <h2>Información de pantalla</h2>
+    <div *ngIf="availHeight !== undefined">
+      <p>availHeight: {{ availHeight }}</p>
+    </div>
+    <div *ngIf="availWidth !== undefined">
+      <p>availWidth: {{ availWidth }}</p>
+    </div>
+    <div *ngIf="height !== undefined">
+      <p>height: {{ height }}</p>
+    </div>
+    <div *ngIf="width !== undefined">
+      <p>width: {{ width }}</p>
+    </div>
+    <div *ngIf="colorDepth !== undefined">
+      <p>colorDepth: {{ colorDepth }}</p>
+    </div>
+    <div *ngIf="pixelDepth !== undefined">
+      <p>pixelDepth: {{ pixelDepth }}</p>
+    </div>
+    <div *ngIf="orientation !== undefined">
+      <p>orientation: {{ orientation }}</p>
+    </div>
+  </div>
+  

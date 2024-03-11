@@ -14,7 +14,8 @@
   .content {
       display: grid;
       grid-area: content;
-      background: url(../app/images/Space.jpg);
+      background-image: linear-gradient(to bottom, #f5f5f7, #ffe8a2);
+
   }
 
   /* Media query en CSS */
