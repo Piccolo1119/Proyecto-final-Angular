@@ -6,4 +6,10 @@
     top: 0;
     z-index: 1000; /* Establece un valor alto para asegurarte de que esté por encima */
   }
-  
+/* 
+  .barrita {
+    background-image: url(../../images/images.jpeg);
+    background-size: cover;
+
+  }
+   */

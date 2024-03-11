@@ -1,0 +1,15 @@
+<div class="contenedor">
+    <div *ngIf="pokemon">
+        <h2>{{ pokemon.name }}</h2>
+        <img [src]="pokemon.sprites.front_default" alt="Pokemon Image">
+        <p>Weight: {{ pokemon.weight }}</p>
+        <p>Height: {{ pokemon.height }}</p>
+        <p>Type(s): 
+          <span *ngFor="let type of pokemon.types">
+            {{ type.type.name }}
+          </span>
+        </p>
+    </div>
+    <button (click)="getRandomPokemon()">Get Random Pokemon</button>    
+</div>
+

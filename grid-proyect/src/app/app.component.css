@@ -1,6 +1,6 @@
 :host {
     margin: 0;
-    gap: 1rem;
+    /* gap: 1rem; */
     display: grid;
     grid-template-areas:
       "header header"
@@ -12,9 +12,11 @@
   }
   
   .content {
-      display: block;
+      display: grid;
       grid-area: content;
+      background: url(../app/images/Space.jpg);
   }
+
   /* Media query en CSS */
   @media (width <= 768px) {
     /* Estilos para cuando el ancho de la ventana es máximo 768px */

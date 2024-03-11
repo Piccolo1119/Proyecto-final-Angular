@@ -1,0 +1,19 @@
+.contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffc107;
+}
+
+h2 {
+    color: slateblue;
+}
+
+p {
+    font-weight: bolder;
+    font-style: italic;
+}
+  
