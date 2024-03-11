@@ -1,0 +1,52 @@
+:host {
+  padding-top: auto;
+  margin: 0;
+}
+
+.custom-btn:hover {
+  border-color: rgb(255, 102, 102); /* Color de borde predeterminado */
+  color: white; /* Color de texto predeterminado */
+  background-color:  rgb(255, 102, 102); /* Cambiar color de fondo al hacer hover */
+}
+
+.custom-btn {  
+  border: 2px solid  rgb(255, 102, 102);
+  color: red;
+}
+
+h1 {
+  color: black; /* Azul Bootstrap */
+}
+
+.neons {
+/*   margin-top: 10rem; */
+  text-align: center;
+}
+
+.visit-counter {
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  font-size: 18px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+}
+
+.neons h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    color: #fff;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 90px red;
+  }
+  to {
+    color: gray;
+    text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red, 0 1 90px red;
+  }
+}
+

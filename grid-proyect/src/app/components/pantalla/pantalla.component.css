@@ -1,0 +1,27 @@
+/* pantalla.component.css */
+
+.pantalla-info {
+    width: 80%; /* Ancho del contenido */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border: 2px solid red; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pantalla-info h2 {
+    text-align: center; /* Centra el texto */
+  }
+  
+  .pantalla-info > div {
+    margin-bottom: 10px; /* Espacio entre los elementos */
+  }
+  
+  .pantalla-info p {
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+  

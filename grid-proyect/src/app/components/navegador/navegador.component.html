@@ -1,0 +1,29 @@
+<!-- navegador.component.html -->
+
+<div class="navegador-info">
+    <h2>Información del navegador</h2>
+    <div *ngIf="clipboard !== undefined">
+        <p>Clipboard: {{ clipboard }}</p>
+    </div>
+    <div *ngIf="cookieEnabled !== undefined">
+        <p>Cookie Enabled: {{ cookieEnabled }}</p>
+    </div>
+    <div *ngIf="geolocation !== undefined">
+        <p>Geolocation: {{ geolocation }}</p>
+    </div>
+    <div *ngIf="language !== undefined">
+        <p>Language: {{ language }}</p>
+    </div>
+    <div *ngIf="onLine !== undefined">
+        <p>OnLine: {{ onLine }}</p>
+    </div>
+    <div *ngIf="plugins !== undefined">
+        <p>Plugins: {{ plugins }}</p>
+    </div>
+    <div *ngIf="storage !== undefined">
+        <p>Storage: {{ storage }}</p>
+    </div>
+    <div *ngIf="userAgent !== undefined">
+        <p>User Agent: {{ userAgent }}</p>
+    </div>
+</div>

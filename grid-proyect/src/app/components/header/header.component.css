@@ -1,0 +1,29 @@
+:host {
+    display: block;
+    grid-area: header;
+    width: auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Establece un valor alto para asegurarte de que esté por encima */
+  }
+
+  
+/* 
+  .barrita {
+    background-image: url(../../images/images.jpeg);
+    background-size: cover;
+
+  }
+   */
+
+
+   .custom-btn {
+    border-color: rgb(255, 102, 102); /* Color de borde predeterminado */
+    color: red; /* Color de texto predeterminado */
+  }
+  
+  .custom-btn:hover {  
+    background-color:  rgb(255, 102, 102); /* Cambiar color de fondo al hacer hover */
+    color: white;
+  }
+  

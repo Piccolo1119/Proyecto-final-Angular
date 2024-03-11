@@ -1,0 +1,27 @@
+/* navegador.component.css */
+
+.navegador-info {
+    width: 80%; /* Ancho del componente */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border: 2px solid red; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navegador-info h2 {
+    text-align: center; /* Centrar el título */
+  }
+  
+  .navegador-info > div {
+    margin-bottom: 10px; /* Espacio entre las secciones */
+  }
+  
+  .navegador-info p {
+    margin: 0; /* Eliminar margen predeterminado */
+  }
+  

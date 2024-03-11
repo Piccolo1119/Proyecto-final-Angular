@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>Chuck Norris Jokes</h1>
+  
+    <!-- Display Random Joke -->
+    <div *ngIf="randomJoke" class="random-joke">
+      <h2>Random Joke:</h2>
+      <p>{{ randomJoke }}</p>
+    </div>
+  
+    <!-- Display Joke Categories -->
+    <div *ngIf="jokeCategories.length > 0" class="joke-categories">
+      <h4>Joke Categories:</h4>
+      <ul>
+        <li *ngFor="let category of jokeCategories">
+            <button (click)="getJokeBySelectedCategory(category)">{{ category }}</button>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Display Joke By Category -->
+    <div *ngIf="jokeByCategory" class="joke-by-category">
+      <h3>Joke By Category: {{ selectedCategory }}</h3>
+      <p>{{ jokeByCategory }}</p>
+    </div>
+</div>
+  
