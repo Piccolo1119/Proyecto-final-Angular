@@ -21,10 +21,14 @@
   button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: red;
     color: #ffffff;
     border: none;
     cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(255, 102, 102);
   }
   
   #datosClima {
