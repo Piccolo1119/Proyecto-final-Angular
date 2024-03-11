@@ -1,0 +1,10 @@
+<div class="pantalla-info">
+    <h1>Adivina el número</h1>
+    <p>Introduce un número entre 1 y 100:</p>
+    <input type="number" [(ngModel)]="numEntrada" min="1" max="100">
+    <br>
+    <button (click)="comprobarNumero()">Comprobar</button>
+    <p>{{ mensaje }}</p>
+    <h4>Cantidad de intentos: <span>{{ intentos }}</span></h4>
+  </div>
+  

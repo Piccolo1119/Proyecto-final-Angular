@@ -1,0 +1,11 @@
+.pantalla-info {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    background-color: #ffc107;
+    max-width: 500px; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Para centrar horizontalmente */
+    padding: 40px;
+}

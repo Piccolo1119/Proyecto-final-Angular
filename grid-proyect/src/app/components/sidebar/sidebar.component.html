@@ -1,4 +1,4 @@
-<div class="nga-container-sidebar">
+<div class="nga-container-sidebar p-3">
     <ul class="list-unstyled p-2">
       <li class="mb-1">
         <button class="btn nga-btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
@@ -8,20 +8,20 @@
         <div class="collapse" id="home-collapse">
           <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li>
-              <a routerLink="/clima" class="link-dark rounded"><i
+              <a routerLink="/clima" class="link rounded"><i
                 class="fab fa-canadian-maple-leaf text-primary mt-1 me-2"></i>Clima App</a>
             </li>
             <li>
-              <a routerLink="/poke" class="link-dark rounded">
+              <a routerLink="/poke" class="link rounded">
                 <i class="fas fa-dove text-primary mt-1 me-2"></i>Poke App</a>
             </li>
             <li>
-              <a routerLink="/chuck" class="link-dark rounded"><i
+              <a routerLink="/chuck" class="link rounded"><i
                   class="fas fa-user-friends text-primary mt-1 me-2"></i>Chuck Norris App</a>
             </li>
             <li>
             <li>
-              <a routerLink="/nasa" class="link-dark rounded"><i
+              <a routerLink="/nasa" class="link rounded"><i
                   class="fas fa-space-shuttle text-primary mt-1 me-2"></i>Nasa App</a>
             </li>
           </ul>
@@ -30,54 +30,36 @@
       <li class="mb-1">
         <button class="btn nga-btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
           data-bs-target="#orders-collapse" aria-expanded="false">
-          Forms
+          Juegos
         </button>
         <div class="collapse" id="orders-collapse">
           <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li>
-              <a routerLink="/bootstrap/buttons" class="link-dark rounded">
-                <i class="fa fa-user text-primary mt-1 me-2"></i>Register</a>
+              <a routerLink="/juego" class="link rounded">
+                <i class="fas fa-gamepad text-primary mt-1 me-2"></i>Adivinanza</a>
+            </li>
+            <li>
+              <a routerLink="/calculadora" class="link rounded">
+                <i class="fas fa-calculator text-primary mt-1 me-2"></i>Calculadora</a>
             </li>
           </ul>
         </div>
       </li>
-
-      <!-- <li class="border-top my-3"></li>
-      <li class="mb-1">
-        <button class="btn nga-btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-          data-bs-target="#account-collapse" aria-expanded="false">
-          Extra
-        </button>
-        <div class="collapse" id="account-collapse">
-          <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li>
-              <a routerLink="/bootstrap/accordions" class="link-dark rounded">
-                <i class="far fa-address-card text-primary mt-1 me-2"></i>Accordions</a>
-            </li>
-            <li>
-              <a routerLink="/bootstrap/breadcrumb" class="link-dark rounded">
-                <i class="fab fa-app-store text-primary mt-1 me-2"></i>Breadcrumb</a>
-            </li>
-            <li>
-              <a routerLink="/bootstrap/popovers" class="link-dark rounded">
-                <i class="fab fa-jedi-order text-primary mt-1 me-2"></i>Popovers</a>
-            </li>
-            <li>
-              <a routerLink="/bootstrap/progress" class="link-dark rounded">
-                <i class="fab fa-galactic-republic text-primary mt-1 me-2"></i>Progress</a>
-            </li>
-            <li>
-              <a routerLink="/bootstrap/spinners" class="link-dark rounded">
-                <i class="fab fa-empire text-primary mt-1 me-2"></i>Spinners</a>
-            </li>
-            <li>
-              <a routerLink="/bootstrap/typography" class="link-dark rounded">
-                <i class="fas fa-dove text-primary mt-1 me-2"></i>Typography</a>
-            </li>
-          </ul>
+      <div class="container">
+        <div class="row juegos mt-3">
+          <div class="card bg-transparent p-3 align-items-center">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-6 mb-3 text-white text-center">¡Ayúdanos a seguir creando contenido!</h5>
+              <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <input type="hidden" name="business" value="tu_correo_paypal@example.com">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" width="80" height="20">
+              </form>
+            </div>
+          </div>
         </div>
-      </li> -->
+      </div>      
     </ul>
   </div>
+
 
 
