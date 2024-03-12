@@ -20,7 +20,7 @@ export class PokeService {
     return this.http.get(`${this.apiUrl}/pokemon/${name}`);
   }
 
-  // Método para obtener una lista de Pokémones
+  // Método para obtener una lista de Pokémons
   getPokemonList(limit: number = 20, offset: number = 0): Observable<any> {
     return this.http.get(`${this.apiUrl}/pokemon?limit=${limit}&offset=${offset}`);
   }

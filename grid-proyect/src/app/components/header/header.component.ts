@@ -22,7 +22,7 @@ export class HeaderComponent {
     // Reemplaza espacios y convierte a minúsculas para comparación
     const terminoNormalizado = this.terminoBusqueda.toLowerCase().trim();
 
-    // Aquí podrías definir la lógica para buscar y navegar al elemento del sidebar
+    // Definimos la lógica para buscar y navegar al elemento del sidebar
     // que coincida con el término de búsqueda
     switch (terminoNormalizado) {
       case 'adivinanza':
@@ -52,7 +52,7 @@ export class HeaderComponent {
       case 'teatro':
         this.router.navigate(['/teatro'], { fragment: 'teatro' });
       break;
-      // Agrega más casos para otros elementos del sidebar
+      
       default:
         // Redirige a una página de búsqueda no encontrada o realiza alguna acción alternativa
         break;

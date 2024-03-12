@@ -21,7 +21,7 @@ export class NavegadorComponent implements OnInit {
   userAgent: string | undefined;
 
   constructor() { }
-
+  //comprueba las propiedades del navegador para ir guardando la información
   ngOnInit(): void {
     if (typeof navigator !== 'undefined') {
       this.clipboard = navigator.clipboard;

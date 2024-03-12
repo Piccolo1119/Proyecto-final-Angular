@@ -21,7 +21,7 @@ export class PantallaComponent implements OnInit {
   orientationType: string | undefined;
 
   constructor() { }
-
+  //comprueba las propiedades de la pantalla para ir guardando la información
   ngOnInit(): void {
     if (typeof window !== 'undefined' && window.screen) {
       this.availHeight = window.screen.availHeight;

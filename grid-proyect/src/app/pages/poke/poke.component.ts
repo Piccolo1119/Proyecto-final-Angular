@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 
 export class PokemonComponent implements OnInit {
-  pokemon: any; // Podrías definir una interfaz más específica si deseas
+  pokemon: any;  // Variable para almacenar los datos del pokemon
 
   constructor(private pokeService: PokeService) { }
 

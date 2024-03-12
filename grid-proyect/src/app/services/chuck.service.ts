@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+//Pillo la información de Chuck Norris Api y almaceno en un servicio tres funciones con tres funcionalidades que tiene
 export class ChuckService {
   apiUrl: string = 'https://api.chucknorris.io/jokes';
 

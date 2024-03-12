@@ -20,7 +20,7 @@ export class TeatroComponent implements OnInit {
   ngOnInit(): void {
     this.getTeatro();
   }
-
+  //Me devuelve los teatros
   getTeatro(): void {
     this.teatroService.getTeatros(0, 100).subscribe(
       data => {
@@ -28,7 +28,7 @@ export class TeatroComponent implements OnInit {
       }
     );
   }
-
+  //Me da la posicion del teatro y lo elimina
   deleteTeatro(id: number): void {
     this.teatroService.deleteTeatro(id).subscribe(
       () => {
@@ -36,7 +36,7 @@ export class TeatroComponent implements OnInit {
       }
     );
   }
-
+  //me permite añadir un teatro al array
   addTeatro(): void {
     this.teatroService.addTeatro({
       nombre: this.nombre,

@@ -23,7 +23,7 @@ export class ChuckComponent {
     this.getRandomJoke();
     this.getJokeCategories();
   }
-
+  //Obtengo las funciones del servicio para poder usarlas y guardar la información en un objeto
   getRandomJoke(): void {
     this.chuckService.getRandomJoke().subscribe(
       (response: any) => {
